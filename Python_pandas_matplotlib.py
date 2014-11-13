@@ -18,7 +18,6 @@ data1 = pd.read_csv(file2, sep='\t')file = 'testdata.txt'
 #2.11a Matrix plot histogram diagonal
 #pd.tools.plotting.scatter_matrix(data2[['Price','Age_08_04','KM','HP','cc','Weight','Mfr_Guarantee']], alpha=0.2, diagonal='hist')
 
-
 #3.3a Bar plot pivot table
 #data2.pivot_table(values='Retail Price', index=['Store Postcode']).plot(kind='bar', title="Mean Retail Price per Store Postcode", legend=True)
 
